@@ -1,0 +1,5 @@
+phrase= input("Entrez une phrase: ")
+liste= phrase.split()
+liste.reverse()
+i= ''.join(liste)
+print(i)
